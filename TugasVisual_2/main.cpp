@@ -17,6 +17,7 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     MainMenu w;
     w.show();
+    qDebug()<<"driver " <<QSqlDatabase::drivers();
 
     // QSqlDatabase konekDB = QSqlDatabase::addDatabase("QODBC");
     // konekDB.setDatabaseName("visual_2");

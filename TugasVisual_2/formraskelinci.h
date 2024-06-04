@@ -2,6 +2,11 @@
 #define FORMRASKELINCI_H
 
 #include <QMainWindow>
+#include <QtSql>
+#include <QSqlDatabase>
+#include <QSqlError>
+#include <QSqlQuery>
+#include <QDebug>
 
 namespace Ui {
 class formRasKelinci;
@@ -17,6 +22,7 @@ public:
 
 private:
     Ui::formRasKelinci *ui;
+    QSqlDatabase koneksi;
 };
 
 #endif // FORMRASKELINCI_H

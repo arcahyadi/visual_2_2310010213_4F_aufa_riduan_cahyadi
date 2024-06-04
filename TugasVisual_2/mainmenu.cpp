@@ -29,7 +29,7 @@ void MainMenu::on_pushButton_2_clicked()
 
 void MainMenu::on_pushButton_3_clicked()
 {
-    formberita->show();
+    formkamuspenyakit->show();
 }
 
 void MainMenu::on_pushButton_4_clicked()

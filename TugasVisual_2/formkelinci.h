@@ -2,6 +2,11 @@
 #define FORMKELINCI_H
 
 #include <QMainWindow>
+#include <QtSql>
+#include <QSqlDatabase>
+#include <QSqlError>
+#include <QSqlQuery>
+#include <QDebug>
 
 namespace Ui {
 class formKelinci;
@@ -17,6 +22,7 @@ public:
 
 private:
     Ui::formKelinci *ui;
+    QSqlDatabase koneksi;
 };
 
 #endif // FORMKELINCI_H
