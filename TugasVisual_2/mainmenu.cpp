@@ -34,5 +34,5 @@ void MainMenu::on_pushButton_3_clicked()
 
 void MainMenu::on_pushButton_4_clicked()
 {
-    formkamuspenyakit->show();
+    formberita->show();
 }

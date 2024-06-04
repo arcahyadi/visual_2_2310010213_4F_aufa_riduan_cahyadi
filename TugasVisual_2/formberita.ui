@@ -6,20 +6,86 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>393</width>
     <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>60</y>
+      <width>241</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="iDberitaLabel">
+       <property name="text">
+        <string>IDberita</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="iDberitaLineEdit"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="namaBeritaLabel">
+       <property name="text">
+        <string>Nama Berita</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="namaBeritaLineEdit"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="isiBeritaLabel">
+       <property name="text">
+        <string>Isi Berita</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="isiBeritaLineEdit"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="jenisBeritaLabel">
+       <property name="text">
+        <string>Jenis Berita</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="jenisBeritaLineEdit"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>200</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Simpan</string>
+    </property>
+   </widget>
+  </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>393</width>
      <height>21</height>
     </rect>
    </property>
