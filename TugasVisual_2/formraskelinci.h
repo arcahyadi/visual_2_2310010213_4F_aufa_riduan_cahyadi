@@ -20,6 +20,13 @@ public:
     explicit formRasKelinci(QWidget *parent = nullptr);
     ~formRasKelinci();
 
+private slots:
+    void on_pushButton_clicked();
+
+    void on_pushButton_2_clicked();
+
+    void on_pushButton_3_clicked();
+
 private:
     Ui::formRasKelinci *ui;
     QSqlDatabase koneksi;

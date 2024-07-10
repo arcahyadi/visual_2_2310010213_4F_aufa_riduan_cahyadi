@@ -29,7 +29,7 @@ private slots:
 
 private:
     Ui::formBerita *ui;
-    QSqlDatabase Koneksi;
+    QSqlDatabase koneksi;
     QSqlQuery sql;
     QSqlRecord cari;
 };

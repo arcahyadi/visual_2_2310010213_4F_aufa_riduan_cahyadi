@@ -46,7 +46,7 @@ void formKamusPenyakit::on_pushButton_clicked()
 void formKamusPenyakit::on_pushButton_2_clicked()
 {
     QSqlQuery sql(koneksi);
-    sql.prepare("UPDATE berita SET nama_penyakit=:nama_penyakit,obat:=obat, deskripsi:=deskripsi, where penyakit_id=:penyakit_id ");
+    sql.prepare("UPDATE kamus_penyakit SET nama_penyakit=:nama_penyakit,obat=:obat, deskripsi=:deskripsi where penyakit_id=:penyakit_id ");
     sql.bindValue(":penyakit_id",ui->penyakitIDLineEdit->text().toInt());
     sql.bindValue(":nama_penyakit",ui->namaPenyakitLineEdit->text());
     sql.bindValue(":obat",ui->obatLineEdit->text());
@@ -62,7 +62,7 @@ void formKamusPenyakit::on_pushButton_2_clicked()
 void formKamusPenyakit::on_pushButton_3_clicked()
 {
     QSqlQuery sql(koneksi);
-    sql.prepare("DELETE FROM berita WHERE penyakit_id=:penyakit_id");
+    sql.prepare("DELETE FROM kamus_penyakit WHERE penyakit_id=:penyakit_id");
     sql.bindValue(":penyakit_id",ui->penyakitIDLineEdit->text().toInt());
 
     if (sql.exec()){

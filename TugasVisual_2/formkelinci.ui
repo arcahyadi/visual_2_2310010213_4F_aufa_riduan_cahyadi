@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>432</width>
     <height>600</height>
    </rect>
   </property>
@@ -17,13 +17,143 @@
    <widget class="QWidget" name="formLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>80</y>
-      <width>160</width>
-      <height>80</height>
+      <x>50</x>
+      <y>30</y>
+      <width>351</width>
+      <height>272</height>
      </rect>
     </property>
-    <layout class="QFormLayout" name="formLayout"/>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="kelinciIDLabel">
+       <property name="text">
+        <string>Kelinci ID</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="kelinciIDLineEdit"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="namaKelinciLabel">
+       <property name="text">
+        <string>Nama Kelinci</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="namaKelinciLineEdit"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="beratKelinciLabel">
+       <property name="text">
+        <string>Berat Kelinci</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="beratKelinciLineEdit"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="genderKelinciLabel">
+       <property name="text">
+        <string>Gender Kelinci</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="genderKelinciLineEdit"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="hargaKelinciLabel">
+       <property name="text">
+        <string>Harga Kelinci</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="hargaKelinciLineEdit"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="rasKelinciLabel">
+       <property name="text">
+        <string>Ras Kelinci</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="rasKelinciLineEdit"/>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="lokasiLabel">
+       <property name="text">
+        <string>Lokasi</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLineEdit" name="lokasiLineEdit"/>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="statusLabel">
+       <property name="text">
+        <string>Status</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QLineEdit" name="statusLineEdit"/>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="tanggalLahirLabel">
+       <property name="text">
+        <string>Tanggal Lahir</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QDateEdit" name="tanggalLahirEdit"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>310</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Simpan</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>310</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Edit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>310</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hapus</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -31,7 +161,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>432</width>
      <height>21</height>
     </rect>
    </property>
